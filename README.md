@@ -14,8 +14,9 @@ This project was a final project for MATH123: Mathematical Aspects of Data Analy
 ````
 Python
 
-Main data analysis: Includes analysis via Support Vector Machine and Artificial Neural Networks (ANN) to build a 
-binary classification model to determine whether or not someone would be diagnosed with cervical cancer.
+Main data analysis: Includes analysis via Support Vector Machine and Artificial Neural Networks (ANN) to 
+build a binary classification model to determine whether or not someone would be diagnosed with cervical 
+cancer.
 
 The file also includes the data cleaning and reduction that was required due to incomplete/irrelevant aspects of 
 the dataset
