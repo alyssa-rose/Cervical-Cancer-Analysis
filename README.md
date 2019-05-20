@@ -14,25 +14,29 @@ This project was a final project for MATH123: Mathematical Aspects of Data Analy
 ````
 Python
 
-Main data analysis: Includes analysis via Support Vector Machine and Artificial Neural Networks (ANN) to build a binary classification
-model to determine whether or not someone would be diagnosed with cervical cancer.
+Main data analysis: Includes analysis via Support Vector Machine and Artificial Neural Networks (ANN) to build a 
+binary classification model to determine whether or not someone would be diagnosed with cervical cancer.
 
-The file also includes the data cleaning and reduction that was required due to incomplete/irrelevant aspects of the dataset
+The file also includes the data cleaning and reduction that was required due to incomplete/irrelevant aspects of 
+the dataset
 ````
 
 ### CervicalCancerSVD.m
 ````
 MATLAB
 
-This portion of the code was used to determine whether or not the data could be compressed through use of Singular Value Decomposition.
-The code determines the directions of greatest variance in order to make new features; the number of 'relevant' features is shown via the 
-dropoff graph produced.
+This portion of the code was used to determine whether or not the data could be compressed through use of 
+Singular Value Decomposition.
+
+The code determines the directions of greatest variance in order to make new features; the number of 'relevant'
+features is shown via the dropoff graph produced.
 ````
 
 ### ImportantAttributesCervicalCancer.py
 ````
 Python
 
-After performing singular value decomposition on the data, this code was used to determine which attributes where most likely to determine 
-a cervical cancer diagnosis through use of a Random Forest Classifier and graph that ranks the most relevant features.
+After performing singular value decomposition on the data, this code was used to determine which attributes 
+where most likely to determine a cervical cancer diagnosis through use of a Random Forest Classifier and 
+graph that ranks the most relevant features.
 ````
