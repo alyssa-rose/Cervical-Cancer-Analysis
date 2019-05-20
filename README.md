@@ -2,8 +2,10 @@
 
 Analysis of a dataset from Kaggle to build a predictive binary classification model for a cervical cancer diagnosis using 27 attributes
 that potentially have a causal relationship to developing cervical cancer. This project seeks to understand which attributes are most
-telling of whether or not a woman will develop cervical cancer through singular value decomposition, support vector machines and artificial
-neural networks.
+telling of whether or not a woman will develop cervical cancer through singular value decomposition, support vector machines and artificial neural networks.
+
+The dataset included the results of 4 diagnosis tests: Hinselmann, Schiller, Cytology and Biopsy. Singular value decomposition
+was performed on the Hinselmann results, while SVM and ANN was done for all 4 
 
 This project was a final project for MATH123: Mathematical Aspects of Data Analysis A, a course at Tufts University
 
